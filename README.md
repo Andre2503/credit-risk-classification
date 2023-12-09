@@ -1,5 +1,9 @@
 # Loan Risk Prediction Model - README
 
+## Repository Structure:
+
+`Credit_Risk` - contains the jupyter notebook used to create our supervised learning machine model. This file also contains the `Resources` files which contains the dataset used for this model `ledning_data.csv`
+
 ## Overview of the Analysis
 This project involves a dataset provided by a bank, containing information on 77,536 loans, pre-classified as Healthy (0) or High-Risk (1). Notably, the dataset comprises 75,036 healthy loans and 2,500 high-risk ones, indicating a significant imbalance that could impact model performance.
 
@@ -12,7 +16,7 @@ Key features used for predictions include:
 - Derogatory Marks
 - Total Debt
 
-The goal is to predict whether a loan is low-risk or high-risk using these features. We employed a linear regression model, dividing the main dataset into training (75%) and testing (25%) segments. Feature scaling was applied to enhance accuracy due to varying numerical magnitudes across features.
+The goal is to predict whether a loan is low-risk or high-risk using these features. A linear regression model was employed accessing the `LogisticRegression` module from the `sklearn` library.The main dataset was divided into training (75%) and testing (25%) segments using the `train_test_split` module from `sklearn`. Feature scaling using `StandardScaler` was applied to enhance accuracy due to varying numerical magnitudes across features.
 
 ## Results
 The training and testing models performed similarly, suggesting good generalization and effectiveness in handling new/ unseen data. The imbalance in the dataset did not significantly impact performance, possibly due to data standardization in preprocessing.
