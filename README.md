@@ -35,15 +35,17 @@ Both models showed high recall for high-risk loans, detecting 98% of them. Preci
 The evaluation of our machine learning models for predicting loan risk demonstrates promising but nuanced results. The models display impressive accuracy, precision, and recall in both training and testing, with particularly strong performance in identifying high-risk loans. However, a deeper analysis suggests a need for caution in the practical application of these models.
 
 **Model Performance**
-*High Recall:* Both models exhibit a high recall rate for high-risk loans (98%), indicating their effectiveness in identifying most of the high-risk loans. This feature of the model is crucial in minimizing potential defaults.
-*Precision Concerns:* The precision of the model, while good, indicates room for improvement. With a precision of 86% for training and 84% for testing, there's a significant probability (14-16%) that healthy loans could be misclassified as high-risk.
+
+- **High Recall:** Both models exhibit a high recall rate for high-risk loans (98%), indicating their effectiveness in identifying most of the high-risk loans. This feature of the model is crucial in minimizing potential defaults.
+- **Precision Concerns:** The precision of the model, while good, indicates room for improvement. With a precision of 86% for training and 84% for testing, there's a significant probability (14-16%) that healthy loans could be misclassified as high-risk.
 
 **Recommendations**
 
-*Conditional Adoption with Supplementary Measures:* While the model's ability to identify high-risk loans makes it a valuable tool, its adoption should come with supplementary measures. Due to the potential for misclassifying healthy loans as high-risk, additional review processes for loans flagged as high-risk by the model are advisable.
+- **Conditional Adoption with Supplementary Measures:** While the model's ability to identify high-risk loans makes it a valuable tool, its adoption should come with supplementary measures. Due to the potential for misclassifying healthy loans as high-risk, additional review processes for loans flagged as high-risk by the model are advisable.
 *Importance of Reducing False Positives:* Efforts should be directed towards improving the model's precision to reduce the rate of false positives. This could involve further tuning of the model, exploring alternative modeling techniques, or implementing a secondary review mechanism for loans identified as high-risk.
-*Aligning with Business Risk Strategy:* The decision to prioritize either recall or precision should align with the bank's risk tolerance and operational capacity. If the implications of falsely identifying a loan as high-risk are significant, a balanced approach or a more conservative model might be warranted.
 
-**Final Thoughts**
+- **Aligning with Business Risk Strategy:** The decision to prioritize either recall or precision should align with the bank's risk tolerance and operational capacity. If the implications of falsely identifying a loan as high-risk are significant, a balanced approach or a more conservative model might be warranted.
+
+## Final Thoughts
 
 While the model shows a strong ability to identify high-risk loans, its adoption should be approached with caution due to the risk of misclassification. Continual monitoring and refinement of the model are essential to ensure its effectiveness and alignment with the bank's risk management goals. The recommendation includes a dual approach: leveraging the model's strengths while actively mitigating its limitations through additional checks or model adjustments. 
