@@ -2,7 +2,7 @@
 
 ## Repository Structure:
 
-`Credit_Risk` - contains the jupyter notebook used to create our supervised learning machine model. This file also contains the `Resources` files which contains the dataset used for this model `ledning_data.csv`
+`Credit_Risk` - contains the jupyter notebook used to create our supervised learning machine model. This file also contains the `Resources` file which contains the dataset used for this model `lending_data.csv`
 
 ## Overview of the Analysis
 This project involves a dataset provided by a bank, containing information on 77,536 loans, pre-classified as Healthy (0) or High-Risk (1). Notably, the dataset comprises 75,036 healthy loans and 2,500 high-risk ones, indicating a significant imbalance that could impact model performance.
